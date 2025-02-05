@@ -1,13 +1,10 @@
 name: Docker Image CI
 
-# Esto es el evento, cuando hacemos un push a esa rama
 on:
   push:
     tags:
       - "v*.*.*"
-    # branches: [ "master" ]
 
-# hace los siguientes trabajos
 
 jobs:
   tests:
